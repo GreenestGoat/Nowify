@@ -4,22 +4,12 @@
  *
  */
 
-@import url('https://fonts.googleapis.com/css?family=Lexend&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=NTR&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Round');
-@import url('https://cloudfront.xp-assets.aiv-cdn.net/packages/ATVWebPlayerSDK-1.0/prod/fonts/AmazonEmber_Rg.woff');
-@import url('https://cloudfront.xp-assets.aiv-cdn.net/packages/ATVWebPlayerSDK-1.0/prod/fonts/AmazonEmber_He.woff');
-@import url('https://cloudfront.xp-assets.aiv-cdn.net/packages/ATVWebPlayerSDK-1.0/prod/fonts/AmazonEmber_Lt.woff');
-@import url('https://fonts.googleapis.com/css?family=__variable_ccafe3&display=swap');
-@import url('https://web.archive.org/web/20230507002856/https://www.justchill.tv/_next/static/media/2aaf0723e720e8b9-s.p.woff2');
+ @font-face {
+  font-display: swap;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
 
 :root {
   --spacing-m: 1rem;
@@ -33,7 +23,7 @@
 
   --font-size-base: 16px;
 
-  --font-body: __variable_ccafe3, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-body: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   --font-weight-body: 400;
   --font-weight-heading: 900;
 
