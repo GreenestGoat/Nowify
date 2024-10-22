@@ -4,13 +4,6 @@
  *
  */
 
- @font-face {
-  font-display: swap;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
 :root {
   --spacing-m: 1rem;
   --spacing-l: 1.5rem;
@@ -25,7 +18,7 @@
 
   --font-body: __variable_ccafe3, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-weight-body: 400;
-  --font-weight-heading: 900;
+  --font-weight-heading: 750;
 
   --body-line-height: 1.1;
 }
