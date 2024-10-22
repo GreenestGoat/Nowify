@@ -1,14 +1,14 @@
-// vue.config.js
+const TerserPlugin = require('terser-webpack-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+
 module.exports = {
   configureWebpack: {
     optimization: {
-      minimize: true, // Enables the minimization
+      minimize: true,
       minimizer: [
-        // Use TerserPlugin for JS minification
         new TerserPlugin({
           parallel: true,
         }),
-        // Use OptimizeCSSAssetsPlugin for CSS minification
         new OptimizeCSSAssetsPlugin({})
       ]
     }
