@@ -42,10 +42,20 @@
 
   &__track {
     font-weight: var(--font-weight-heading);
+    display: block;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    line-height: normal;
   }
 
   &__artists {
     opacity: 0.8;
+    display: block;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    line-height: normal;
   }
 
   &--active {
