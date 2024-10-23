@@ -7,7 +7,8 @@
 .now-playing {
   /* background-color: var(--colour-background-now-playing); */
   background-color: #000000!important;
-  color: var(--color-text-primary);
+  /* color: var(--color-text-primary); */
+  color: #fff;
   display: flex;
   flex-flow: column nowrap;
   height: 100%;
